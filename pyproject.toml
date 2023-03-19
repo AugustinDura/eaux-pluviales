@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "projet-vendredi"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "projet_vendredi"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^1.5.3"
+mypy = "^1.1.1"
+altair = "^4.2.2"
+numpy = "^1.24.2"
+geopandas = "^0.12.2"
+folium = "^0.14.0"
+matplotlib = "^3.7.1"
+mapclassify = "^2.5.0"
+branca = "^0.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+ruff = "^0.0.256"
+mypy = "^1.1.1"
+ipykernel = "^6.21.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

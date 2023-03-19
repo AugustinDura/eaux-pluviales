@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+
+# Python files
+.venv
+.ipynb_checkpoints
+__pycache__
+
+# Data files
+data/
